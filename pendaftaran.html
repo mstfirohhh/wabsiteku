@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #registrasi {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+    </style>
+ </head>
+ <body>
+    <!-- Formulir Registrasi -->
+ <div id="registrasi">
+    <h2>Formulir Registrasi</h2>
+    <form action="proses-registrasi.php" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required>
+
+        <label for="Alamat">Alamat:</label>
+        <input type="text" id="Alamat" name="Alamat" required>
+
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" required>
+
+        <label for="kelas">Kelas:</label>
+        <input type="text" id="kelas" name="kelas" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="No Hp">No Hp:</label>
+        <input type="text" id="No Hp" name="No Hp" required>
+
+        <label for="Jenis Kelamin">Jenis Kelamin:</label>
+        <input type="text" id="Jenis Kelamin" name="Jenis Kelamin" required>
+
+        <label for="Agama">Agama:</label>
+        <select name="Agama" id="Agama">
+            <option value="Islam">Islam</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+        </select>
+
+        <label for="foto">Foto Profil (URL):</label>
+        <input type="text" id="foto" name="foto" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>   
+ </body>
+ </html>
+ 
