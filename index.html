@@ -3,269 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Saya</title>
-    <style>
-         /* CSS untuk container profil dosen */
-         .profile-container1 {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center; /* Mengatur horizontal centering */
-            align-items: center; /* Mengatur vertical centering */
-            margin-top: 20px;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 50px;
-            max-width: 300px;
-            margin: 50px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .profile-img1 {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            margin: 0 auto 10px;
-        }
-
-        /* CSS untuk Navigasi Bar */
-        ul.navbar {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        li.navitem {
-            float: left;
-        }
-
-        li.navitem a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li.navitem a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        /* CSS untuk Profil */
-        .profile-container {
-        display: flex;
-        align-items: center;
-        background-color: #ffffff;
-        padding: 10px;
-        justify-content: space-between; /* Pindahkan elemen ke sisi kanan */
-    }
-
-    .profile-info {
-        text-align: left;
-    }
-
-    .profile img {
-        max-width: 200px;
-        height: auto;
-        margin-right: 30cm;
-    }
-
-        /* CSS untuk Tautan Instagram */
-        .instagram-link {
-            text-align: left; /* Pindahkan tautan ke kiri */
-            margin-top: 20px;
-            margin-left: 20px; /* Berikan margin kiri */
-        }
-
-        .instagram-link a {
-            display: inline-block;
-            background-color: #e4405f;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        h2 {
-            color: #333;
-        }
-
-        p {
-            line-height: 1.5;
-        }
-        .profile-card {
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            text-align: center;
-            max-width: 300px;
-            margin: 20px;
-        }
-
-        .profile-img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            margin: 0 auto 10px;
-        }
-
-        /* CSS untuk mengatur profil dosen berada di tengah */
-        .profiles-container {
-            display: flex;
-            align-items: center;
-            justify-content: center; /* Mengatur horizontal centering */
-            flex-wrap: wrap; /* Memungkinkan baris berikutnya jika kontainer tidak muat dalam lebar layar */
-            margin-top: 20px; /* Margin atas untuk memisahkan dari profil Anda */
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        .footer-social {
-            margin-top: 20px;
-        }
-
-        .footer-social a {
-            color: white;
-            text-decoration: none;
-            font-size: 20px;
-            margin: 0 10px;
-        }
-
-        .footer-contact {
-            margin-top: 20px;
-        }
-
-        .footer-contact p {
-            margin: 5px 0;
-        }
-
-        .footer-logo {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: white;
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            margin-right: 10px;
-            font-weight: bold;
-            font-size: 24px;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <!-- Navigasi Bar -->
-    <ul class="navbar">
-        <li class="navitem"><a href="beranda.html" target="_blank">Beranda</a></li>
-        <li class="navitem"><a href="tentang"target="_blank">Tentang Kami</a></li>
-        <li class="navitem"><a href="kontak.html" target="_blank">Kontak</a></li>
-        <li class="navitem"><a href="pemprograman Web firoh/pendaftaran.html" target="_blank">Form</a></li>
-    </ul>
-<div id="beranda">
-    <!-- Profil Saya -->
-    <div class="profile-container" id="beranda">
-        <div class="profile-info">
-            <h1>MUSTAGHFIROH</h1>
-            <p>Alamat: Jl.K.H.Abdul Hadi Simbang Kulon Gg2 Buaran pekalongan</p>
-            <p>Mahasiswa Teknologi Komputer ITSNU pekalongan</p>
-            <p>Nim   : 102220073</p>
-            <p>Kelas : TK22B</p>
-            <p>Mengikuti kepengurusan HIMTEKOM</p>
-            <p>Sebagai Departemen Ke Agamaan</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixe-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><h4>MAS SIMBANG KULON</h4></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Tentang kami">Tentang kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Galeri">Galeri</a>
+              </li><li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="register.html">Daftar Sekarang</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <section id="home" class="mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="p img-fluid" src="c:\Users\DELL\Pictures\Saved Pictures\New folder\download.jfif" alt="MAS SIMBANG KULON">
+                </div>
+                <div class="col-md-6">
+                    <h6 class="deskripsi">Madrasah Aliyah Salafiyah Simbangkulon Buaran Pekalongan, adalah sebuah lembaga pendidikan formal di lingkungan Yayasan Salafiyah Simbangkulon Buaran Pekalongan yang didirikan dengan biaya swadaya masyarakat, sehingga sejak awal sistem pengelolaan pendidikan yang ada pada Madrasah Aliyah Salafiyah senantiasa berpihak pada arti pelayanan hajat masyarakat.</h6>
+                    <p>Selamat Datang di Website"MAS SIMBANG KULON"!Madrasah Aliyah Salafiyah amat tergantung kepada peran serta masyarakat setempat, baik pengembangan yang berkaitan dengan pengadaan bangunan fisik maupun tekhnik pengelolaan pendidikan dan pembelajaran.
+                        Keikutsertaan mayarakat secara optimal menjadikan Madrasah Aliyah Salafiyah selalu dipandang memiliki nilai lebih diatas Madrasah atau sekolah lain yang setingkat, dan sekaligus mendapat tempat dalam hati masyarakat.</p>
+                    <p><a href="" class="tbl-pink">Pelajari lebih lanjut</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="Tentang kami" class="mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Tentang kami</h2>
+                    <h1>Ayoo daftar kan segera</h1>
+                    <p>Di MAS MAS SIMBANG KULON <br> <br>Sebelum menjadi sebuah lembaga formal yang berbentuk madrasah, proses pendidikan agama berjalan dalam bentuk majlis taklim Diniyah atau pondok pesantren yang secara khusus mendidik santri-santrinya dengan ilmu keagamaan. Majlis taklim ini diasuh oleh para ulama setempat yang secara langsung atau tidak langsung mempunyai pertalian erat dengan keluarga besar Pondok Pesantren yang didirikan dan diasuh oleh Almaghfurlah KH. Amir Idris, salah seorang ulama besar yang bertempat tinggal di desa Simbangkulon.
+                        Dalam perkembangan selanjutnya oleh tokoh-tokoh agama setempat dipandang perlu mendirikan sebuah lembaga formal dan sekaligus dilengkapi dengan kepengurusan yang membawahi dan mengelola. Kepengurusan terbentuk pada tahun 1955,berbarengan dengan pembangunan gedung yang pertama yaitu Madrasah Ibtidaiyah Salafiyah.
+                        Untuk kepentingan yang lebih luas dan menyesuaikan dengan kebijaksanaan pemerintah sekarang dipandang perlu untuk dijadikan yayasan. Kemudian kepengurusan didaftarkan ke notaris menjadi bentuk sebuah yayasan pada tahun 1417 H atau 1997 M.</p>
+                    <p><a href="" class="tbl-biru">Pelajari lebih lanjut</a></p>
+                </div>
+                <div class="col-md-6">
+                    <img class="p img-fluid" src="c:\Users\DELL\Pictures\Saved Pictures\New folder\Guru_Putra.jpg" alt="Wisata Lombok">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section id="Galeri" class=""  >
+        <h2 class="text-center pb-3 pt-3">Galeri</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card m-auto border-0" style="width: 18rem;">
+                    <img src="c:\Users\DELL\Pictures\Saved Pictures\New folder\maxresdefault.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center">PKS MAS SIMBANG KULON</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card m-auto border-0" style="width: 18rem;">
+                    <img src="c:\Users\DELL\Pictures\Saved Pictures\New folder\download (1).jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center">Atsar MAS SIMBANG KULON</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card m-auto border-0" style="width: 18rem;">
+                    <img src="c:\Users\DELL\Pictures\Saved Pictures\New folder\img-20170814-wa0069.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text text-center">Pembagian Hadiah Classmetting</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div id="Contact">
+                <div class="footer">
+                    <div  class="footer-section">
+                        <h3>Visi Misi</h3>
+                        <p>Visi dan Misi MA Salafiyah Simbangkulon
+                          Madrasah Aliyah Salafiyah memiliki  visi dan misi yang sejalan dengan orientasi nilai-nilai perjuangan pondok pesantren dan kepentingan masyarakat muslim secara luas.
+                          
+                          VISI
+                          
+                          ” Membangun insan Sholeh dan Akrom, berilmu, beramal dan berakhlak mulia “.
+                          
+                          MISI
+                          1. Membangun kualitas perilaku keberagamaan ala Ahlussunnah wa al-jama’ah
+                          2. Kompeten dalam ilmu Agama dan ilmu umum
+                          3. Terampil dan aktif berbahasa Arab dan Inggris</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>contact</h3>
+                        <p>jl.K.H.Abdul Hadi Simbang Kulon Gg2 Buaran Pekalongan Jawa Tengah Indonesia</p>
+                        <p>kode pos: 51171</p>
+                        <h2 id="alamat">Alamat</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.730920300853!2d109.65664687427635!3d-6.9227352677572345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7026ac2e062689%3A0x6dc3e79335a88afe!2sMA%20Salafiyah%20Simbang%20Kulon!5e0!3m2!1sid!2sid!4v1698563089980!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="footer-section">
+                        <h3>social</h3>
+                        <p>ig:@massimbangkulon</p>
+                        <a href="https://api.whatsapp.com/send?phone=6285955173352&text=Halo,silahkan%20kalo%20ada%20yang%20ingin%20ditanyakan">Chat di WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-to-top">
+                <a href="#home">
+                    <div class="arrow-container">
+                        <img src="up arrow.jpeg" alt="Scroll to Top">
+                    </div>
+                </a>
+            </div>
             
-        </div>
-        <img src="WhatsApp Image 2023-10-01 at 06.42.08.jpeg" style="width: 15%; height: 15%;" alt="Foto Profil Anda">
-    </div>
-</div>
-
-    <!-- Profil Kepengurusan Himtekom Pengurus Harian 2023 -->
-    <!--Profil Ketua Hmtekom-->
-    <div class="profile-container1" id="tentang">
-        <img class="profile-img1" src="WhatsApp Image 2023-10-01 at 06.52.36.jpeg" alt="Foto Ketua Himtekom 2023">
-        <h2>Afan Maulana</h2>
-        <P>Dari Kelas Tk22C</P>
-        <p>Ketua</p>
-    </div>
-
-    <!-- Profil Wakil Ketua -->
-    <div class="profile-container1">
-        <img class="profile-img1" src="WhatsApp Image 2023-10-01 at 06.52.37.jpeg" alt="Foto Wakil Ketua">
-        <h2>Rizqi Muhammad Anafis T.</h2>
-        <p>Dari Kelas Tk22A</p>
-        <p>Wakil Ketua</p>
-    </div>
-
-    <!-- Profil Sekretaris -->
-    <div class="profile-container1">
-        <img class="profile-img1" src="WhatsApp Image 2023-10-01 at 06.52.37 (1).jpeg" alt="Foto Sekretaris">
-        <h2>Azmi Kamalita</h2>
-        <p>Dari Kelas Tk22C</p>
-        <p>Sekretaris</p>
-    </div>
-06
-    <!-- Profil Wakil Sekretaris -->
-    <div class="profile-container1">
-        <img class="profile-img1" src="WhatsApp Image 2023-10-01 at 06.52.38.jpeg" alt="Foto Wakil Sekretaris">
-        <h2>Ririn Yuli Yani</h2>
-        <p>Dari Kelas Tk22A</p>
-        <p>Wakil Sekretaris</p>
-    </div>
-    
-    <!-- Profil Bendahara -->
-    <div class="profile-container1">
-        <img class="profile-img1" src="d:WhatsApp Image 2023-10-01 at 06.52.39.jpeg" alt="Foto Bendahara">
-        <h2>Nok Khumairotun Nisak</h2>
-        <p>Dari Kelas TK22B</p>
-        <p>Bendahara</p>
-    </div>
-
-    <!-- profil Wakil Bendahara -->
-    <div class="profile-container1">
-        <img class="profile-img1" src="WhatsApp Image 2023-10-01 at 06.52.39 (1).jpeg" alt=" Foto Wakil Bendahara">
-        <h2>Ispaniyah</h2>
-        <p>Dari Kelas Tk22</p>
-        <p>Wakil Bendahara</p>
-    </div>
-        
-<div id="kontak">
-    <footer>
-        <div class="footer-social">
-            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div class="footer-contact">
-            <p>Alamat: Jl. Karangdowo No. 9, Kota pekalongan</p>
-            <p>Email: https://itsnupekalongan.ac.id/</p>
-            <p>Telepon: 0285-7831614</p>
-        </div>
-    </footer>
-</div>
-    <!-- Konten Halaman Anda akan ditambahkan di sini -->
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
